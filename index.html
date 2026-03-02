@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="src/output.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+
+<body class="h-screen bg-pink-200 max-w-full">
+  <nav
+    class="text-black bg-purple-600 flex md:justify-between flex-col md:flex-row min-h-10 items-center font-semibold fixed top-0 left-0 w-full z-50">
+    <div class="logo">
+      Monika Kote
+    </div>
+    <ul class="space-x-3 flex">
+      <li><a href="/#home" class="hover:text-gray-300">Home</a></li>
+      <li><a href="/#about" class="hover:text-gray-300">About</a></li>
+      <li><a href="/#skills" class="hover:text-gray-300">Skills</a></li>
+      <li><a href="/#projects" class="hover:text-gray-300">Projects</a></li>
+      <li><a href="/#contact" class="hover:text-gray-300">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- home -->
+  <section id="home" class="min-h-screen pt-24">
+    <main>
+      <div>
+        <h1
+          class="text-3xl md:text-2xl mb-4 font-semibold bg-red-500 bg-clip-text text-transparent flex justify-center p-6">
+          Hi, I'm Monika</h1>
+        <h2 class=" text-2xl md:2xl text-center mb-4 font-semibold bg-purple-800 bg-clip-text text-transparent">
+          Full Stack Web Developer</h2>
+        <p
+          class=" text-1xl md:3xl text-center mb-6 font-semibold bg-blue-500 bg-clip-text text-transparent flex justify-center">
+          I Build responsive and modern web application</p>
+        <p class=" text-1xl md:2xl text-center mb-6 bg-gray-700 bg-clip-text text-transparent flex justify-center">
+          Continuously enhancing my web development skills through hands-on projects and practical experience</p>
+      </div>
+      <div>
+        <img src="https://wallpaperaccess.com/full/4635743.jpg" class="w-4/5 md:w-2/6 flex mx-auto p-5">
+      </div>
+    </main>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <main>
+      <div>
+        <h1 class="text-2xl md:3xl  font-semibold flex justify-center text-red-600">About Me</h1>
+        <h3 class="text-2xl flex justify-center p-8 font-semibold text-blue-700">Introduction</h3>
+        <p class="w-full text-1xl text-center font-medium text-gray-700 ">I am a passionate and self-motivated Web
+          Development student who is continuously learning and improving my
+          skills. I enjoy building responsive and user-friendly websites.</p>
+        <p class="w-full text-1xl md:3xl text-center font-medium p-5 text-gray-700  ">Currently, I am building
+          real-world projects and strengthening my problem-solving skills to become a professional Full Stack Developer.
+        </p>
+        <h3 class="text-2xl flex justify-center p-8 font-semibold text-blue-700">Goal</h3>
+        <p class="w-full text-1xl md:3xl text-center font-medium p-3 text-gray-700">My goal is to work in a
+          growth-oriented company where I can contribute my skills and continue learning new technologies</p>
+      </div>
+    </main>
+  </section>
+
+  <!-- technical skills -->
+  <section id="skills">
+    <main>
+      <div>
+        <h1 class="text-2xl md:3xl  font-semibold flex justify-center text-red-600 pt-24">Technical Skills</h1>
+        <p class="w-full text-1xl text-center text-gray-700 p-6">technologies and tools I work with to build modern web
+          application</p>
+        <div class="md:flex">
+          <div class="border border-gray-400 h-auto w-4/5 md: md:w-1/3 mx-auto rounded-2xl m-5">
+            <div class="m-5">
+              <h3 class="text-black text-2xl">Frontend</h3>
+              <div class="w-2/5 md:w-20 h-1 border-b-4 border-yellow-400"></div>
+              <div class="m-3">
+                <li>
+                  <ol>HTML</ol>
+                </li>
+                <li>
+                  <ol>CSS</ol>
+                </li>
+                <li>
+                  <ol>JavaScript</ol>
+                </li>
+              </div>
+            </div>
+          </div>
+          <div class="border border-gray-400 h-auto w-4/5 md:w-1/3 mx-auto rounded-2xl m-5">
+            <div class="m-5">
+              <h3 class="text-black text-2xl">Backend</h3>
+              <div class="w-2/5 md:w-20 h-1 border-b-4 border-yellow-400"></div>
+              <div class="m-3">
+                <li>
+                  <ol>Node js</ol>
+                </li>
+                <li>
+                  <ol>Express js</ol>
+                </li>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </section>
+
+  <!-- projects -->
+  <section>
+    <main>
+      <div>
+        <h1 id="projects" class="text-2xl md:3xl  font-semibold flex justify-center text-red-600 pt-24 p-8">Projects</h1>
+  
+        <div class="md:flex">
+          <div>
+            <div class="border w-4/5 md:w-4/5 h-auto mx-auto rounded-2xl border-gray-400 p-5 font-semibold text-xl">
+              <h2 class="text-center">Tic-Tac-Toe Game</h2>
+              <p class="text-sm p-4 text-gray-700">I developed a fully functional Tic Tac Toe game using HTML, CSS, and
+                JavaScript. The game features dynamic
+                turn switching, winner detection logic, draw condition handling, and a reset option. Through this project,
+                I
+                enhanced my skills in JavaScript logic building, event handling, and creating interactive user interfaces.
+              </p>
+              <div>
+                <a href="https://github.com/Monikakote12/tic-tac-toe-game" target="_blank"
+                  class="px-4 py-2 bg-black text-white text-sm  mx-auto rounded-lg flex items-center gap-2 hover:bg-gray-800 transition duration-300 h-8 w-[90px]">
+                  <div class="mx-auto">view</div>
+                  <i class="fab fa-github text-xl"></i>
+  
+                </a>
+              </div>
+            </div>
+  
+          </div>
+  
+          <div class="pt-10 md:p-0">
+            <div class="border w-4/5 md:w-4/5 h-auto mx-auto rounded-2xl border-gray-400 p-5 font-semibold text-xl">
+              <h2 class="text-center">Marks Calculator</h2>
+              <p class="text-sm p-4 text-gray-700">I developed a Marks Calculator web application that allows users to
+                input
+                subject
+                marks and instantly view total marks, percentage, and grade results. The project uses JavaScript for
+                dynamic
+                calculations and condition-based grading logic, helping me strengthen my problem-solving and front-end
+                development
+                skills.
+              </p>
+              <div>
+                <a href="https://github.com/Monikakote12/Marks_calculator" target="_blank"
+                  class="px-4 py-2 bg-black text-white text-sm  mx-auto rounded-lg flex items-center gap-2 hover:bg-gray-800 transition duration-300 h-8 w-[90px]">
+                  <div class="mx-auto">view</div>
+                  <i class="fab fa-github text-xl"></i>
+  
+                </a>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+  
+       <div class="md:flex">
+         <div class="pt-10">
+          <div class="border w-4/5 md:w-4/5 h-auto mx-auto rounded-2xl border-gray-400 p-5 font-semibold text-xl">
+            <h2 class="text-center">Guess Number Game</h2>
+            <p class="text-sm p-4 text-gray-700">I built a dynamic Guess the Number game where users attempt to guess a
+              randomly
+              generated number. The project strengthens my understanding of JavaScript fundamentals,
+              including Math functions, conditional logic, event handling, and interactive UI design.
+            </p>
+            <div>
+              <a href="https://github.com/Monikakote12/Guess-Number-Game" target="_blank"
+                class="px-4 py-2 bg-black text-white text-sm  mx-auto rounded-lg flex items-center gap-2 hover:bg-gray-800 transition duration-300 h-8 w-[90px]">
+                <div class="mx-auto">view</div>
+                <i class="fab fa-github text-xl"></i>
+  
+              </a>
+            </div>
+          </div>
+  
+        </div>
+  
+        <div class="pt-10">
+          <div class="border w-4/5 md:w-4/5 h-auto mx-auto rounded-2xl border-gray-400 p-5 font-semibold text-xl">
+            <h2 class="text-center">Todo-List</h2>
+            <p class="text-sm p-4 text-gray-700">I created a To-Do List project that helps users organize and manage
+              daily tasks efficiently. It includes dynamic task addition, and deletion using JavaScript,
+              improving my skills in interactive UI design and problem-solving.
+            </p>
+            <div>
+              <a href="https://github.com/Monikakote12/Todo-List" target="_blank"
+                class="px-4 py-2 bg-black text-white text-sm  mx-auto rounded-lg flex items-center gap-2 hover:bg-gray-800 transition duration-300 h-8 w-[90px]">
+                <div class="mx-auto">view</div>
+                <i class="fab fa-github text-xl"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+       </div>
+      </div>
+    </main>
+  </section>
+
+  <!-- contact -->
+  <section>
+    <main>
+     
+      <div>
+        <h1 id="contact" class="text-2xl md:3xl  font-semibold flex justify-center text-red-600 pt-24 p-8">Contact</h1>
+         <p class="text-center text-xl md:2xl ">You can connect with me on</p>
+       <div>
+         <div>
+           <a href="https://www.linkedin.com/in/monika-kote-0633b6332" target="_blank"
+                class="m-5 px-4 py-2 text-black text-sm  mx-auto rounded-lg flex items-center gap-2 hover:bg-gray-800 transition duration-300 border border-black h-8 w-[250px] md:w-[400px]">
+                <div class="mx-auto">LinkedIn</div>
+           </a>    
+        </div>
+        <div>
+           <a href="https://github.com/Monikakote12" target="_blank"
+                class="px-4 py-2 text-black text-sm  mx-auto rounded-lg flex items-center gap-2 hover:bg-gray-800 transition duration-300 border border-black h-8 w-[250px]  md:w-[400px]">
+                <div class="mx-auto">GitHub</div>
+           </a> 
+        </div>
+       </div>
+      </div>
+    </main>
+  </section>
+
+</body>
+
+</html>
